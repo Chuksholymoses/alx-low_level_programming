@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ *_puts - Write a function that prints a string,and a new line, to stdout
+ *@str: The printed string
+ * Return: Always 0.
+ */
+
+void _puts(char *str)
+{
+int i = 0;
+while (str[i])
+{
+ putchar(str[i]);
+ i++;
+}
+_putchar('\n');
+}
